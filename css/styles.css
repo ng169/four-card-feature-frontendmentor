@@ -109,16 +109,23 @@ header p {
 
 /* Footer */
 
-.attribution {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  color: hsl(var(--gray-blue));
+footer {
+  padding: 2rem;
 }
-.attribution a {
-  text-decoration: none;
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
   color: hsl(var(--dark-blue));
+}
+
+.attribution a {
+  color: hsl(var(--blue));
+  text-decoration: none;
+}
+
+.attribution span {
+  color: red;
 }
 
 /* Media Queries */
